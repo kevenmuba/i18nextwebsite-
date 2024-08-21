@@ -1,11 +1,15 @@
 import './App.css';
 import { useRoutes, BrowserRouter, Navigate } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './assets/bootstrap.scss'
 import LanguageWrapper from './Component/LanguageWrapper';
 import Home from './Component/home';
 import About from './Component/about';
 import { Suspense } from 'react';
 import Try from './Component/try';
 import i18n from './i18n/index.js';// this is very crucial 
+import Blog from './Component/blog/index.jsx';
 
 const AppContent = () => {
   const routes = useRoutes([
@@ -17,7 +21,8 @@ const AppContent = () => {
         
         { path: "", element: <Home /> },
         { path: "about", element: <About /> },
-        { path: "try", element: <Try /> }
+        { path: "try", element: <Try /> },
+        { path: "blog", element: <Blog/> }
         
       ]
     },

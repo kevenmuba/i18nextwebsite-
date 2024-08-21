@@ -1,0 +1,10 @@
+{
+  "header": {
+    "home": "home",
+    "about": "about",
+    "blogs": "blogs",
+    "contact": "contact",
+    "services": "services",
+    "donate": "Donate now"
+  }
+}

@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useParams, Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Header from '../Header';
+import Navbar from '../../pages/Header/Navbar';
 import Footer from  '../Footer/Footer';
+import TopBar from '../../pages/Header/TopBar';
 
 
 const LanguageWrapper = () => {
@@ -19,10 +20,11 @@ const LanguageWrapper = () => {
 
   return (
     <>
-       
-      <Header lang={lang} />
+       <TopBar/>
+      <Navbar lang={lang} />
       <div style={{marginTop:'50px'}}>
       <Outlet /> 
+      <Footer/>
       
 
       </div>
