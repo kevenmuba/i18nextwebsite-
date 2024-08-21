@@ -1,0 +1,15 @@
+{
+  "about": {
+    "title": "About Us",
+    "description": "We are a company dedicated to providing the best services to our customers."
+  },
+  "try": {
+    "title": "Try Our Services",
+    "description": "Experience the best services we offer and see the difference for yourself."
+  },
+  "home": {
+    "title": "Welcome to Our Website",
+    "description": "This is the homepage where you can find the latest updates and news."
+  }
+  
+}
